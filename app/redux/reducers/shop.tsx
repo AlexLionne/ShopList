@@ -1,8 +1,8 @@
 import {
-  ADD_TO_lIST,
+  //ADD_TO_lIST,
   CREATE_LIST,
   //CREATE_CATEGORY,
-  REMOVE_ITEM_TO_lIST,
+  //REMOVE_ITEM_TO_lIST,
   //DELETE_CATEGORY,
   DELETE_LIST,
 } from '../constants';
@@ -30,11 +30,9 @@ const initialState: {
 const shopReducer = (
   state = initialState,
   {
-    category,
     list,
     type,
-    item,
-  }: {category: string; list: ShopList; type: string; item: ShopItem},
+  }: {category: string; list: ShopList; type: string},
 ) => {
   switch (type) {
     /*case ADD_TO_lIST:

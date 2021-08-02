@@ -15,10 +15,14 @@ const AppStack = () => {
           component={ShopList}
           options={{headerShown: false}}
         />
-        <Stack.Screen name="AddList" component={AddList} options={{headerShown: false}}/>
+        <Stack.Screen
+          name="AddList"
+          component={AddList}
+          options={{headerShown: false}}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );
 };
 
-export default AppStack
+export default AppStack;

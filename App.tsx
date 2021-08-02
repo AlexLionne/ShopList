@@ -18,7 +18,6 @@ import {Provider} from 'react-redux';
 import AppStack from './app/router';
 
 const App = () => {
-
   const backgroundStyle = {
     flex: 1,
     backgroundColor: Colors.lighter,
